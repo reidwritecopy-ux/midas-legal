@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIDAS sign-in</title>
+<style>
+  :root { --bg:#fbfaf7; --fg:#1d1d1b; --dim:#5f5d57; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#15161a; --fg:#ecebe6; --dim:#a4a29a; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:560px; margin:0 auto; padding:48px 20px; }
+  h1 { font-size:26px; margin:0 0 8px; } .dim { color:var(--dim); }
+</style>
+</head>
+<body>
+<main>
+<h1>Signed in to TikTok</h1>
+<p>You can close this tab. If you are setting up MIDAS, copy the <b>whole address</b> from your
+browser&rsquo;s address bar (it ends in <code>?code=&hellip;</code>) and paste it into the terminal where
+<code>tiktok.py --auth</code> is waiting.</p>
+<p class="dim">This page does nothing else and keeps nothing.</p>
+</main>
+</body>
+</html>
